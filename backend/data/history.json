@@ -1,0 +1,205 @@
+[
+  {
+    "jobId": "8c6471fd-c0f4-483b-9033-70af2a7c7b7f",
+    "verdict": "LEGITIMATE",
+    "confidence": 98,
+    "ensemble": 2,
+    "models": {
+      "naive_bayes": {
+        "spam": 2,
+        "ham": 98
+      },
+      "logistic_regression": {
+        "spam": 1,
+        "ham": 99
+      },
+      "svm": {
+        "spam": 2,
+        "ham": 99
+      }
+    },
+    "tokens": [
+      "sarah",
+      "following",
+      "meeting",
+      "yesterday",
+      "regarding",
+      "project",
+      "timeline",
+      "attached",
+      "updated",
+      "proposal",
+      "revised",
+      "milestones",
+      "discussed",
+      "review",
+      "share",
+      "feedback",
+      "thursday",
+      "looking",
+      "forward",
+      "thoughts",
+      "best",
+      "regards",
+      "michael",
+      "engineering"
+    ],
+    "spamSignals": [
+      "win"
+    ],
+    "hamSignals": [
+      "meeting",
+      "project",
+      "review",
+      "attached",
+      "proposal",
+      "regards"
+    ],
+    "source": "gmail",
+    "charCount": 303,
+    "wordCount": 46,
+    "processedAt": "2026-04-18T07:39:59.737Z"
+  },
+  {
+    "jobId": "4af2d147-7e3a-43aa-a1c4-22df54f243da",
+    "verdict": "LEGITIMATE",
+    "confidence": 85,
+    "ensemble": 15,
+    "models": {
+      "naive_bayes": {
+        "spam": 16,
+        "ham": 85
+      },
+      "logistic_regression": {
+        "spam": 14,
+        "ham": 86
+      },
+      "svm": {
+        "spam": 15,
+        "ham": 85
+      }
+    },
+    "tokens": [
+      "000000000000sf1b1bd544a536b7be97ed1e85a75c4de",
+      "content",
+      "type",
+      "multipart",
+      "related",
+      "boundary",
+      "000000000000bf1b1bd544a536b7be97ed1e85a75c4de",
+      "000000000000bf1b1bd544a536b7be97ed1e85a75c4de",
+      "content",
+      "type",
+      "multipart",
+      "alternative",
+      "boundary",
+      "000000000000cf1b1bd544a536b7be97ed1e85a75c4de",
+      "000000000000cf1b1bd544a536b7be97ed1e85a75c4de",
+      "content",
+      "type",
+      "text",
+      "plain",
+      "charset",
+      "utf",
+      "content",
+      "transfer",
+      "encoding"
+    ],
+    "spamSignals": [],
+    "hamSignals": [],
+    "source": "gmail",
+    "charCount": 857,
+    "wordCount": 46,
+    "processedAt": "2026-04-18T07:38:43.700Z"
+  },
+  {
+    "jobId": "0470dfed-78cf-4f77-8e97-e918a2226ea4",
+    "verdict": "SPAM",
+    "confidence": 98,
+    "ensemble": 98,
+    "models": {
+      "naive_bayes": {
+        "spam": 99,
+        "ham": 1
+      },
+      "logistic_regression": {
+        "spam": 97,
+        "ham": 3
+      },
+      "svm": {
+        "spam": 99,
+        "ham": 1
+      }
+    },
+    "tokens": [
+      "congratulations",
+      "won",
+      "free",
+      "cash",
+      "reward",
+      "click",
+      "now",
+      "claim",
+      "prize"
+    ],
+    "spamSignals": [
+      "free",
+      "claim",
+      "prize",
+      "click",
+      "cash",
+      "congratulations",
+      "reward"
+    ],
+    "hamSignals": [],
+    "source": "gmail",
+    "charCount": 80,
+    "wordCount": 14,
+    "processedAt": "2026-04-18T07:35:11.604Z"
+  },
+  {
+    "jobId": "44f2d78c-3145-42da-a656-91f4273bf13f",
+    "verdict": "SPAM",
+    "confidence": 98,
+    "ensemble": 98,
+    "models": {
+      "naive_bayes": {
+        "spam": 99,
+        "ham": 1
+      },
+      "logistic_regression": {
+        "spam": 97,
+        "ham": 3
+      },
+      "svm": {
+        "spam": 99,
+        "ham": 1
+      }
+    },
+    "tokens": [
+      "congratulations",
+      "won",
+      "free",
+      "cash",
+      "reward",
+      "click",
+      "now",
+      "claim",
+      "prize"
+    ],
+    "spamSignals": [
+      "free",
+      "claim",
+      "prize",
+      "click",
+      "cash",
+      "congratulations",
+      "reward"
+    ],
+    "hamSignals": [],
+    "source": "gmail",
+    "charCount": 80,
+    "wordCount": 14,
+    "processedAt": "2026-04-18T07:13:45.352Z"
+  }
+]

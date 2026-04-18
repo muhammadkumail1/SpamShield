@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" role="img" aria-label="SpamShield diagram placeholder">
+  <rect width="960" height="240" fill="#0b1220"/>
+  <rect x="30" y="40" width="230" height="160" rx="18" fill="#111a2b" stroke="#61dafb" stroke-opacity="0.35"/>
+  <rect x="365" y="40" width="230" height="160" rx="18" fill="#111a2b" stroke="#9b7bff" stroke-opacity="0.35"/>
+  <rect x="700" y="40" width="230" height="160" rx="18" fill="#111a2b" stroke="#53e3a6" stroke-opacity="0.35"/>
+  <text x="145" y="90" fill="#eef7ff" font-size="24" text-anchor="middle" font-family="Arial, sans-serif">Frontend</text>
+  <text x="145" y="125" fill="#a9bfd3" font-size="15" text-anchor="middle" font-family="Arial, sans-serif">React UI</text>
+  <text x="145" y="148" fill="#a9bfd3" font-size="15" text-anchor="middle" font-family="Arial, sans-serif">frontend/src</text>
+  <text x="480" y="90" fill="#eef7ff" font-size="24" text-anchor="middle" font-family="Arial, sans-serif">API Layer</text>
+  <text x="480" y="125" fill="#a9bfd3" font-size="15" text-anchor="middle" font-family="Arial, sans-serif">Express service</text>
+  <text x="480" y="148" fill="#a9bfd3" font-size="15" text-anchor="middle" font-family="Arial, sans-serif">backend/src</text>
+  <text x="815" y="90" fill="#eef7ff" font-size="24" text-anchor="middle" font-family="Arial, sans-serif">Data</text>
+  <text x="815" y="125" fill="#a9bfd3" font-size="15" text-anchor="middle" font-family="Arial, sans-serif">jobs • history</text>
+  <text x="815" y="148" fill="#a9bfd3" font-size="15" text-anchor="middle" font-family="Arial, sans-serif">backend/data</text>
+  <line x1="260" y1="120" x2="365" y2="120" stroke="#61dafb" stroke-width="3" stroke-opacity="0.55"/>
+  <line x1="595" y1="120" x2="700" y2="120" stroke="#53e3a6" stroke-width="3" stroke-opacity="0.55"/>
+</svg>
