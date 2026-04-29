@@ -36,7 +36,7 @@ export default function App() {
   const [isPipelineComplete, setIsPipelineComplete] = useState(false);
   const [result, setResult] = useState(null);
   const [history, setHistory] = useState([]);
-  const [totalCount, setTotalCount] = useState(2847);
+  const [totalCount, setTotalCount] = useState(0);
   const [currentPage, setCurrentPage] = useState('input');
 
   const handleAnalyze = useCallback(async (emailText, source) => {

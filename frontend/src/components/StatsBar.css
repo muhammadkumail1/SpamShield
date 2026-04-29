@@ -43,7 +43,7 @@
 .color-red .stat-value { color: var(--accent-red); }
 .color-green .stat-value { color: var(--accent-green); }
 .color-amber .stat-value { color: var(--accent-amber); }
-.color-purple .stat-value { color: #a78bfa; }
+.color-purple .stat-value { color: var(--accent-purple); }
 
 @media (max-width: 640px) {
   .stats-bar { flex-wrap: wrap; }

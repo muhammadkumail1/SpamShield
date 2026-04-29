@@ -138,7 +138,8 @@
   }
 
   .header-meta {
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: flex-start;
   }
 }
 
@@ -151,3 +152,4 @@
     display: none;
   }
 }
+

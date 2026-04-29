@@ -113,7 +113,6 @@ export default function PipelineDisplay({ pipelineState, isRunning, isComplete }
         </div>
       </div>
 
-      {/* Progress Bar */}
       <div className="progress-track">
         <div className="progress-labels">
           <span>Pipeline Progress</span>
@@ -133,7 +132,6 @@ export default function PipelineDisplay({ pipelineState, isRunning, isComplete }
         </div>
       </div>
 
-      {/* Stages */}
       <div className="stages-list">
         {PIPELINE_STAGES.map((stage, index) => {
           const status = getStageStatus(index);
@@ -189,7 +187,6 @@ export default function PipelineDisplay({ pipelineState, isRunning, isComplete }
         })}
       </div>
 
-      {/* Realtime log */}
       {(isRunning || isComplete) && (
         <div className="log-console">
           <div className="log-header">

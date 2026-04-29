@@ -69,7 +69,6 @@ export default function ResultPanel({ result }) {
   return (
     <div className="result-panel" style={{ '--result-accent': accentColor, '--result-dim': accentDim, '--result-border': accentBorder }}>
 
-      {/* Verdict Banner */}
       <div className="verdict-banner" style={{ background: accentDim, borderColor: accentBorder }}>
         <div className="verdict-icon-wrap" style={{ background: isSpam ? 'rgba(255,59,92,0.15)' : 'rgba(0,255,136,0.15)', borderColor: accentBorder }}>
           {isSpam ? (
@@ -98,7 +97,6 @@ export default function ResultPanel({ result }) {
         </div>
       </div>
 
-      {/* Confidence + Stats */}
       <div className="result-metrics-row">
         <div className="metrics-card">
           <ConfidenceArc value={result.confidence} isSpam={isSpam} />
@@ -123,7 +121,6 @@ export default function ResultPanel({ result }) {
         </div>
       </div>
 
-      {/* Model Breakdown */}
       <div className="section">
         <div className="section-title">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -149,7 +146,6 @@ export default function ResultPanel({ result }) {
         </div>
       </div>
 
-      {/* Signal Tokens */}
       <div className="section">
         <div className="section-title">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">

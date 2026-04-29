@@ -48,6 +48,8 @@
   gap: 18px;
 }
 
+
+
 .stats-section {
   animation: fadeInUp 0.3s ease both;
 }
@@ -76,55 +78,6 @@
 .flow-card:hover {
   transform: translateY(-2px);
   background: rgba(16, 26, 38, 0.82);
-}
-
-.flow-card.active {
-  background: linear-gradient(135deg, rgba(97, 218, 251, 0.08), rgba(10, 18, 28, 0.86));
-  border-color: rgba(97, 218, 251, 0.28);
-  box-shadow: 0 14px 32px rgba(97, 218, 251, 0.08);
-}
-
-.flow-step {
-  width: 40px;
-  height: 40px;
-  border-radius: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--bg-hover);
-  color: var(--accent-purple);
-  font-family: var(--font-mono);
-  flex-shrink: 0;
-}
-
-.flow-copy {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.flow-title {
-  font-weight: 700;
-  color: var(--text-primary);
-}
-
-.flow-desc {
-  font-size: 12px;
-  color: var(--text-secondary);
-}
-
-.page-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.85fr);
-  gap: 18px;
-  align-items: start;
-}
-
-.primary-stack,
-.secondary-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
 }
 
 .brief-card,
@@ -329,6 +282,55 @@
 
 .footer-sep {
   color: var(--bg-border);
+}
+
+.flow-card.active {
+  background: linear-gradient(135deg, rgba(97, 218, 251, 0.08), rgba(10, 18, 28, 0.86));
+  border-color: rgba(97, 218, 251, 0.28);
+  box-shadow: 0 14px 32px rgba(97, 218, 251, 0.08);
+}
+
+.flow-step {
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-hover);
+  color: var(--accent-purple);
+  font-family: var(--font-mono);
+  flex-shrink: 0;
+}
+
+.flow-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.flow-title {
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.flow-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.4fr) minmax(300px, 0.85fr);
+  gap: 18px;
+  align-items: start;
+}
+
+.primary-stack,
+.secondary-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 @media (max-width: 1100px) {

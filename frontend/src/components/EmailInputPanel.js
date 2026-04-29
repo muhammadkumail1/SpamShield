@@ -76,7 +76,6 @@ export default function EmailInputPanel({ onAnalyze, isLoading }) {
         </div>
       </div>
 
-      {/* Source Selector */}
       <div className="source-section">
         <label className="field-label">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -98,7 +97,6 @@ export default function EmailInputPanel({ onAnalyze, isLoading }) {
         </div>
       </div>
 
-      {/* Text Area */}
       <div className="textarea-section">
         <div className="textarea-header">
           <label className="field-label">
@@ -148,7 +146,6 @@ Subject, headers, body — paste the full content for best accuracy."
         )}
       </div>
 
-      {/* Submit */}
       <button
         className={`analyze-btn ${isLoading ? 'loading' : ''} ${emailText.trim().length >= 5 ? 'ready' : 'disabled'}`}
         onClick={handleSubmit}

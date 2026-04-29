@@ -34,7 +34,7 @@ router.get('/stream/:jobId', (req, res) => {
   if (job.status === 'complete' && job.result) {
     send('complete', job.result);
     res.end();
-    return undefined;
+    return;
   }
 
   const unsubscribe = subscribeToJob(jobId, (packet) => {
@@ -48,8 +48,6 @@ router.get('/stream/:jobId', (req, res) => {
   req.on('close', () => {
     unsubscribe();
   });
-
-  return undefined;
 });
 
 router.get('/:jobId', (req, res) => {
